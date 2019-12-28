@@ -10,4 +10,7 @@ const createEmployeeRecord = (arr) => {
   }
 }
 
-// const createEmployeeRecords
+const createEmployeeRecords = (arr) => {
+  return arr.map(nested => createEmployeeRecord(nested))
+  
+}
