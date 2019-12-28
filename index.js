@@ -31,5 +31,5 @@ const createTimeOutEvent = (obj, str) => {
     hour: parseInt(str[1], 10),
     date: str[0]
   })
-  return obj 
+  return obj
 }
