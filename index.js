@@ -12,5 +12,5 @@ const createEmployeeRecord = (arr) => {
 
 const createEmployeeRecords = (arr) => {
   return arr.map(nested => createEmployeeRecord(nested))
-  
+
 }
