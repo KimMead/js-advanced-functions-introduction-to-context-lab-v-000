@@ -13,3 +13,10 @@ const createEmployeeRecord = (arr) => {
 const createEmployeeRecords = (arr) => {
   return arr.map(nested => createEmployeeRecord(nested))
 }
+
+const createTimeEvent = (obj, str) => {
+  str = str.split(" ")
+  obj.timeInEvents.push({
+    type: "TimeIn",
+  })
+}
