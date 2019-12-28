@@ -39,3 +39,4 @@ const hoursWorkedOnDate = (obj, date) => {
   let result1 = obj.timeOutEvents.find(el => el.date === date)
   return (result1.hour - result.hour) / 100
 }
+
