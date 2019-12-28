@@ -9,3 +9,5 @@ const createEmployeeRecord = (arr) => {
     timeOutEvents: []
   }
 }
+
+// const createEmployeeRecords
