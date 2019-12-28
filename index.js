@@ -18,5 +18,8 @@ const createTimeInEvent = (obj, str) => {
   str = str.split(" ")
   obj.timeInEvents.push({
     type: "TimeIn",
+    hour: parseInt(str[1], 10),
+    date: str[0]
   })
+  return obj 
 }
