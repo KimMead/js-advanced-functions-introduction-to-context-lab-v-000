@@ -23,3 +23,13 @@ const createTimeInEvent = (obj, str) => {
   })
   return obj
 }
+
+const createTimeOutEvent = (obj, str) => {
+  str = str.split(" ")
+  obj.timeOutEvents.push({
+    type: "TimeOut",
+    hour: parseInt(str[1], 10),
+    date: str[0]
+  })
+  return obj 
+}
